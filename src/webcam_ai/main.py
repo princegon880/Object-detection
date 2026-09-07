@@ -15,27 +15,7 @@ Pipeline
            ↓
     Load YOLO model  (DetectorError → friendly message + exit)
            ↓
-    Open webcam      (CameraError  → friendly message + exit)
-           ↓
-    ┌──────────────────────────────────────┐
-    │  Capture frame                       │
-    │       ↓                              │
-    │  Run YOLO inference                  │
-    │       ↓                              │
-    │  Process detections                  │
-    │       ↓                              │
-    │  Draw bounding boxes                 │
-    │       ↓                              │
-    │  Draw FPS + object-count HUD         │
-    │       ↓                              │
-    │  Show frame                          │
-    │       ↓                              │
-    │  Q pressed? ─── Yes ──► break        │
-    │       │                              │
-    │       No                             │
-    └───────┘
-           ↓
-    Release webcam + destroy OpenCV windows
+troy OpenCV windows
            ↓
     Exit
 
