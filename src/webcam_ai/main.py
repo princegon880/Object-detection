@@ -1,4 +1,5 @@
 """
+This is the prince gondaliya project
 Main entry-point for the Real-Time Webcam AI Object Detection application.
 
 Pipeline
